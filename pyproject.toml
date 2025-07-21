@@ -5,6 +5,10 @@ description = ""
 authors = ["mahakitis <mahak137j@gmail.com>"]
 readme = "README.md"
 
+packages = [
+    { include = "app" }
+]
+
 [tool.poetry.dependencies]
 python = "^3.13"
 uvicorn = "^0.35.0"
