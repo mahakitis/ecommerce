@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ecom"
+version = "0.1.0"
+description = ""
+authors = ["mahakitis <mahak137j@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+uvicorn = "^0.35.0"
+pydantic = "^2.11.7"
+pymongo = "^4.13.2"
+fastapi = "^0.116.1"
+motor = "^3.7.1"
+dotenv = "^0.9.9"
+psycopg = "^3.2.9"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
